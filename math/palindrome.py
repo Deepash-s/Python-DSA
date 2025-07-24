@@ -7,7 +7,7 @@ def palindrome(n):
         n //= 10
         
     if(dup == revNum):
-        print(f'{dup} is PALINDROME')
+        print(f'{dup} is a PALINDROME')
     else:
         print(f'{dup} is not a PALINDROME')
         
