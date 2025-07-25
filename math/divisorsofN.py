@@ -7,3 +7,5 @@ def divisor(n):
 
 
 divisor(12)
+
+#Brute force approach: Time complexity -> O(n)
