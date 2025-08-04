@@ -9,7 +9,7 @@ def reverseArray(start, arr, end):
         print(f'Reverse array: {arr}')
         return
     arr[start], arr[end] = arr[end],  arr[start]
-    reverseArray(start+1, arr, end-1)\
+    reverseArray(start+1, arr, end-1)
         
 
 reverseArray(0, arr, n-1)
