@@ -10,3 +10,6 @@ for i in range(1, n):
 arr[n-1] = temp
 
 print(arr)
+
+#first = arr.pop(0)
+#arr.append(first)
