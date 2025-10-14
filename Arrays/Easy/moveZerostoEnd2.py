@@ -12,10 +12,10 @@ for i in range(n):
     
 if j == -1:
     print(arr)
-    
-for i in range(j+1, n):
-    if arr[i] != 0:
-        arr[i], arr[j] = arr[j], arr[i]
-        j += 1
+else:   
+    for i in range(j+1, n):
+        if arr[i] != 0:
+            arr[i], arr[j] = arr[j], arr[i]
+            j += 1
         
 print(arr)
