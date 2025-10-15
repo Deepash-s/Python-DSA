@@ -10,5 +10,5 @@ def linearSearch(arr, target):
     else:
         print('Target not found')
         
-
+        
 linearSearch(arr, target)
