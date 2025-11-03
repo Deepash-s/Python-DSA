@@ -1,3 +1,5 @@
+#better
+
 arr = [2, 0, 2, 1, 1, 0]
 n = len(arr)
 cnt0, cnt1, cnt2 = 0, 0, 0
